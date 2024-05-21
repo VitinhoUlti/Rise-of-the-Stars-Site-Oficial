@@ -1,1 +1,55 @@
 @charset "UTF-8";
+
+/*header h1, img, apresentandoCidade, tem estilos proprios para mudar o tamanho*/
+#primeiraParte{
+    height: 100vh;
+
+    background: url(imagens/minecraft-shaders.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 1vh;
+    
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#navheader{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    margin: 1vw 1vh;
+}
+#apresentandoCidade{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.frase{
+    width: 70vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.397);
+
+    text-align: center;
+    overflow-y: scroll;
+}
+.invisivel{
+    opacity: 0.01;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+    background: url(imagens/minecraft-city.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
