@@ -27,7 +27,7 @@ a{
     text-decoration: none;
     margin: 1vw 1vh;
 }
-#apresentandoCidade{
+#apresentandoCidade, main, article{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,12 +44,42 @@ a{
     opacity: 0.01;
 }
 main{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 100vh;
 
     background: url(imagens/minecraft-city.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+article{
+    height: 100vh;
+
+    background: url(imagens/medieval_minecraft.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#MedidorDeTempo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: url(imagens/nuvens.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 60vw;
+    height: 70vh;
+
+    background: rgba(255, 255, 255, 0.479);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 3vh;
 }
